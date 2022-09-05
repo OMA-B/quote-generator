@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body, body * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    background: url(assets/img/amy-chen-WoBGZrctrHE-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* --------- Quote Container --------- */
+.quote-container {
+    width: 90%;
+    max-width: 850px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(255,255,255,0.3);
+}
+
+/* --------- Quote Section --------- */
+.quote {
+    margin: auto;
+    display: flex;
+}
+
+.fa-quote-left {
+    font-size: 55px;
+}
+
+.quote-text {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* --------- Author Section --------- */
