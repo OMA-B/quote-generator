@@ -8,6 +8,7 @@ body, body * {
     padding: 0;
     margin: 0;
     list-style: none;
+    border: none;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Baloo Bhaina 2', sans-serif;
-    background: url(assets/img/amy-chen-WoBGZrctrHE-unsplash.jpg) no-repeat;
+    background: url(assets/img/amy-chen-unsplash-portrait.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -42,6 +43,14 @@ body {
 }
 
 .quote-text {
+    font-size: 2.75rem;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+.long-quote {
     font-size: 2.5rem;
     text-align: center;
     line-height: 30px;
@@ -49,3 +58,49 @@ body {
 }
 
 /* --------- Author Section --------- */
+.author-text {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    font-size: 2.3rem;
+    font-style: oblique;
+    color: #000;
+}
+
+/* --------- Button Section --------- */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    padding: 5px 20px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    /* transition: all 0.2s; */
+}
+
+.tweet:hover {
+    color: #00acee;
+}
+
+.new-quote:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.button-container button:active {
+    transform: translateY(6px);
+    box-shadow: none;
+}
+
+/* --------- Media Break --------- */
+@media screen and (min-width: 500px) {
+    body {
+        background: url(assets/img/amy-chen-WoBGZrctrHE-unsplash.jpg) no-repeat;
+        background-size: cover;
+    }
+}
