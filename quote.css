@@ -36,6 +36,11 @@ body {
 .quote {
     margin: auto;
     display: flex;
+    justify-content: center;
+}
+
+.quote > span {
+    text-align: center;
 }
 
 .fa-quote-left {
@@ -44,7 +49,6 @@ body {
 
 .quote-text {
     font-size: 2.75rem;
-    text-align: center;
     line-height: 30px;
     font-weight: 600;
     color: #000;
@@ -52,9 +56,9 @@ body {
 
 .long-quote {
     font-size: 2.5rem;
-    text-align: center;
     line-height: 30px;
     font-weight: 600;
+    color: #000;
 }
 
 /* --------- Author Section --------- */
@@ -81,7 +85,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 6px 2px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    /* transition: all 0.2s; */
 }
 
 .tweet:hover {
