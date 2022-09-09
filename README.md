@@ -1,4 +1,4 @@
 # quote-generator
 
 
-# Live: https://oma-b.github.io/quote-generator/ 
+# Live: https://life-quote-generator.netlify.app/ 
