@@ -65,8 +65,9 @@ body {
 .author-text {
     display: block;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
     font-size: 2.3rem;
+    line-height: 30px;
     font-style: oblique;
     color: #000;
 }
@@ -98,6 +99,21 @@ body {
 .button-container button:active {
     transform: translateY(6px);
     box-shadow: none;
+}
+
+/* --------- Loader Animation --------- */
+.loader {
+    width: 120px;
+    height: 120px;
+    border: 10px solid #EFEEEC;
+    border-top: 12px solid #915D2A;
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 
 /* --------- Media Break --------- */
